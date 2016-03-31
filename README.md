@@ -36,7 +36,7 @@ To run screensaver on your Mac, you must install it.
 ![Chat](prefs.png)
 
 ##TOO COMPLICATE?
-Download from here an executable: [Pasky-Saver.saver.zip]()
+Download from here an executable: [Pasky-Saver.saver.zip](https://github.com/elpsk/PaskySaver/raw/master/Pasky-Saver.saver.zip)
 
 ##TODO
 ####1. A massive memory optimization.  
