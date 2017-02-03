@@ -15,14 +15,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @IBOutlet weak var window: NSWindow!
     lazy var screenSaverView = APScreenSaverView (frame: NSZeroRect, isPreview: false)
 
-    func applicationDidFinishLaunching(aNotification: NSNotification) {
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
         if let screenSaverView = screenSaverView {
             screenSaverView.frame = window.contentView!.bounds;
             window.contentView!.addSubview(screenSaverView);
         }
     }
 
-    func applicationWillTerminate(aNotification: NSNotification) {
+    func applicationWillTerminate(_ aNotification: Notification) {
 
     }
 

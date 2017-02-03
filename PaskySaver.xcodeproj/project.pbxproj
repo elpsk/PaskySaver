@@ -143,9 +143,11 @@
 				TargetAttributes = {
 					7DE430271B51CA190073DB62 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0820;
 					};
 					7DF79B991B5157C000BF9B54 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -230,6 +232,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "it.albertopasca.paskysaver-debug";
 				PRODUCT_NAME = PaskySaverApp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -243,6 +246,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "it.albertopasca.paskysaver-debug";
 				PRODUCT_NAME = PaskySaverApp;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -337,6 +341,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = it.albertopasca.paskysaver;
 				PRODUCT_NAME = "Pasky-Saver";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -352,6 +357,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.albertopasca.paskysaver;
 				PRODUCT_NAME = "Pasky-Saver";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
